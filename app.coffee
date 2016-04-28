@@ -72,7 +72,7 @@ cardTwo.onDragEnd (event, layer) ->
 		activeDot.states.switch("two")
 
 cardOne.animationOptions = curve: "spring(300, 30, 0)"
-cardTwo.animationOptions = curve: "spring(300, 20, 0)"
+cardTwo.animationOptions = curve: "spring(300, 30, 0)"
 
 
 
