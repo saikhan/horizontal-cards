@@ -136,6 +136,9 @@ cardTwo.onDragEnd (event, layer) ->
 	else if cardTwo.x < dragLeft
 		switchThree()
 		activeDot.states.switch("three")
+	else
+		switchTwo()
+		activeDot.states.switch("two")
 
 cardThree.onDragEnd (event, layer) ->
 	if cardThree.x > dragRight
