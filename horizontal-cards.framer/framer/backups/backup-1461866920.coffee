@@ -3,6 +3,7 @@ sketch = Framer.Importer.load("imported/framerOnboard_12-9@1x")
 
 cardOne = sketch.card1
 cardTwo = sketch.card2
+cardThree = sketch.card3
 cardOne.draggable.enabled = true
 cardTwo.draggable.enabled = true
 cardOne.draggable.vertical = false
@@ -11,10 +12,14 @@ cardTwo.draggable.vertical = false
 # inital setup
 sketch.placeholder1.opacity = 0
 sketch.placeholder2.opacity = 0
-sketch.card3.opacity = 0
 cardTwo.x = 700
 cardTwo.y = 300
 cardTwo.scale = 0.85
+cardTwo.originX = 0
+cardTwo.originY = 0
+cardThree.x = 700
+cardThree.y = 300
+cardTt.scale = 0.85
 cardTwo.originX = 0
 cardTwo.originY = 0
 
