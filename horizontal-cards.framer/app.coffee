@@ -52,7 +52,7 @@ activeDot.states.add
 		x: 418
 activeDot.states.animationOptions = curve: "spring(400, 20, 0)"
 
-# add states
+# card states
 cardOne.states.add
 	two:
 		x: -511
@@ -101,7 +101,7 @@ cardThree.states.add
 		z: 2
 cardThree.animationOptions = curve: "spring(300, 30, 0)"
 
-# function for switches
+# functions for switches
 cards = []
 
 for name, layer of sketch
@@ -120,7 +120,7 @@ switchThree = () ->
 	for card in cards
 		card.states.switch("three")
 
-# on drag event
+# onDrag events
 cardOne.onDragEnd (event, layer) ->
 	if cardOne.x < dragLeft
 		switchTwo()
